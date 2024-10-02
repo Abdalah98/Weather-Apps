@@ -1,4 +1,3 @@
-
 # Weather Apps
 
 A simple iOS Weather App built using Swift, SwiftUI, and Moya. The app fetches weather data for a given city and displays the current weather and a 5-day forecast.
@@ -9,7 +8,6 @@ A simple iOS Weather App built using Swift, SwiftUI, and Moya. The app fetches w
 - [Running the App](#running-the-app)
 - [Testing](#testing)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Requirements
 
@@ -23,7 +21,6 @@ A simple iOS Weather App built using Swift, SwiftUI, and Moya. The app fetches w
    ```bash
    git clone https://github.com/Abdalah98/Weather-Apps.git
    ```
-
 
 ## Running the App
 
@@ -49,13 +46,12 @@ This will run the unit tests and provide code coverage data.
 
 ## Project Structure
 
-- `WeatherApp/`: Contains the main application code.
+  - `WeatherApp/`: Contains the main application code.
   - `Models/`: Contains the data models used by the app.
   - `ViewModels/`: Contains the business logic and state management.
   - `Views/`: Contains the UI components built using SwiftUI.
   - `Network/`: Contains the networking code, including the API client powered by Moya.
-  
-- `Tests/`: Contains unit tests for the app.
+  - `Tests/`: Contains unit tests for the app.
 
 ## Dependencies
 
