@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1E03F65E2CADC4580068167A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1E03F65D2CADC4580068167A /* Moya */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1E6215132CAD16A0009E98B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3928F72CADD3E400D1C8C1 /* weather app.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "weather app.xctestplan"; sourceTree = "<group>"; };
 		1E6215022CAD169E009E98B4 /* weather app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6215122CAD16A0009E98B4 /* weather appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E62151C2CAD16A0009E98B4 /* weather appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E03F65E2CADC4580068167A /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E03F65C2CADC4580068167A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1E6214F92CAD169E009E98B4 = {
 			isa = PBXGroup;
 			children = (
+				1E3928F72CADD3E400D1C8C1 /* weather app.xctestplan */,
 				1E6215042CAD169E009E98B4 /* weather app */,
 				1E6215152CAD16A0009E98B4 /* weather appTests */,
 				1E62151F2CAD16A0009E98B4 /* weather appUITests */,
+				1E03F65C2CADC4580068167A /* Frameworks */,
 				1E6215032CAD169E009E98B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +127,7 @@
 			);
 			name = "weather app";
 			packageProductDependencies = (
+				1E03F65D2CADC4580068167A /* Moya */,
 			);
 			productName = "weather app";
 			productReference = 1E6215022CAD169E009E98B4 /* weather app.app */;
@@ -195,6 +211,9 @@
 			);
 			mainGroup = 1E6214F92CAD169E009E98B4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1E03F6282CADC1790068167A /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1E6215032CAD169E009E98B4 /* Products */;
 			projectDirPath = "";
@@ -396,6 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"weather app/Preview Content\"";
+				DEVELOPMENT_TEAM = DBGPQTKSVN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -408,7 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weather-app.weather-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weather-app.weather-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -424,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"weather app/Preview Content\"";
+				DEVELOPMENT_TEAM = DBGPQTKSVN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weather-app.weather-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,8 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBGPQTKSVN;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
@@ -485,6 +508,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBGPQTKSVN;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weather-app.weather-appUITests";
@@ -552,6 +576,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E03F6282CADC1790068167A /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E03F65D2CADC4580068167A /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E03F6282CADC1790068167A /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E6214FA2CAD169E009E98B4 /* Project object */;
 }
