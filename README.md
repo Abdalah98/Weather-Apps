@@ -62,9 +62,6 @@ This will run the unit tests and provide code coverage data.
 - [Moya](https://github.com/Moya/Moya) – A network abstraction layer.
 - [Combine](https://developer.apple.com/documentation/combine) – Apple’s framework for handling asynchronous events by combining event-processing operators.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ![WhatsApp Image 2024-10-02 at 11 08 20 PM](https://github.com/user-attachments/assets/5644858e-4de8-4212-bb86-d2fd10e75276)
 
 ![WhatsApp Image 2024-10-02 at 11 08 13 PM](https://github.com/user-attachments/assets/6ae58f3b-18c1-4522-a578-bf1d81f85983)
