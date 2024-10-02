@@ -1,5 +1,4 @@
-# Let's create the README.md file and save it.
-readme_content = """
+
 # Weather Apps
 
 A simple iOS Weather App built using Swift, SwiftUI, and Moya. The app fetches weather data for a given city and displays the current weather and a 5-day forecast.
@@ -23,7 +22,6 @@ A simple iOS Weather App built using Swift, SwiftUI, and Moya. The app fetches w
 
    ```bash
    git clone https://github.com/Abdalah98/Weather-Apps.git
-   cd Weather-Apps
    ```
 
 
